@@ -1,0 +1,24 @@
+# Downloaded ffmpeg binary (fetched by setup.bat, not redistributed)
+ffmpeg/*
+!ffmpeg/.gitkeep
+
+# Third-party installer (downloaded by setup.bat)
+Setup.Screen.Capturer.Recorder*.exe
+
+# Recordings (user data)
+録画データ/
+
+# Setup temp files
+_ffmpeg_dl.zip
+_ffmpeg_tmp/
+_sc_recorder.exe
+
+# OS / editors
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
